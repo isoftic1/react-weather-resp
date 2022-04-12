@@ -10,7 +10,7 @@ body {
   color: white;
 }
 .App .box {
-  max-width: 50%;
+  max-width: 60%;
   margin: 50px auto;
   padding: 20px;
   border-radius: 16px;
@@ -37,7 +37,7 @@ h1 {
   color: #BFE0FB;
 }
 h2 {
-  font-size: 2rem;
+  font-size: 1rem;
   color: white;
 }
 h3 {
