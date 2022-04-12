@@ -1,13 +1,14 @@
 
 body {
-  background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
+  background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+  background-attachment: fixed; 
   font-family: "Open Sans", sans-serif !important;
   display: block;
   margin: 0 auto;
 }
 .App .box {
   max-width: 40%;
-  margin: 50px auto;
+  margin: 30px auto;
   padding: 10px;
   border-radius: 16px;
   background-color: #fff;
@@ -17,10 +18,7 @@ body {
 .navbar {
   margin: 20px;
 }
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
 .button:hover {
   cursor: pointer;
 }
