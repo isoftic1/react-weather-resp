@@ -1,12 +1,12 @@
-html {
-  height: 100%;
-}
+
 body {
   background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
   font-family: "Open Sans", sans-serif !important;
+  display: block;
+  margin: 0 auto;
 }
 .App .box {
-  max-width: 60%;
+  max-width: 40%;
   margin: 50px auto;
   padding: 10px;
   border-radius: 16px;
@@ -42,10 +42,18 @@ h1 {
   font-weight: bold;
   color: #93B0FF;
 }
-h3 {
+h2 {
+  font-size: 1rem;
   color: gray;
 }
-h5 {
+h3 {
+  font-size: 2rem;
+  color: steelblue;
+  font-weight: bold;
+  margin: 0px;
+  padding-bottom: 10px;
+}
+h4 {
   font-size: 1.1rem;
   font-weight: 300;
   margin: 0px;
