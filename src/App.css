@@ -1,38 +1,156 @@
-.App {
-  text-align: center;
+html {
+  height: 100%;
+}
+body {
+  background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
+  font-family: "Montserrat", sans-serif !important;
+}
+.App .box {
+  max-width: 450px;
+  margin: 50px auto;
+  padding: 40px;
+  border-radius: 16px;
+  background-color: #000000d0;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
+.navbar {
+  margin: 20px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button:hover {
+  cursor: pointer;
+}
+.field {
+  padding: 5px 15px;
+  border-radius: 4px;
+  border: 1px solid cadetblue;
+}
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #BFE0FB;
+}
+h2 {
+  font-size: 1rem;
+  color: white;
+}
+h3 {
+  font-size: 2rem;
+  color: #BFE0FB;
+  font-weight: bold;
+  margin: 0px;
+  padding-bottom: 10px;
+}
+h4 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin: 0px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+.unit {
+  text-decoration: none;
+  font-weight: 600;
+  color:#BFE0FB;;
+}
+.unit:hover {
+  color:darkorange;
+  cursor: pointer;
+}
+.units {
+  font-size: 1.1rem;
+}
+.conversion {
+  font-size: 16px;
+  position: relative;
+  line-height: 1;
+  top: -15px;
+}
+.Forecast {
+  width: 100%;
+  margin: 0 auto;
+}
+.Forecast .days {
+  font-weight: 700;
+}
+.Forecast .icons {
+  max-width: 80px;
+  margin: 0 auto;
+}
+.Forecast .high-temp {
+  font-weight: 500;
+}
+.Forecast .low-temp {
+  color: grey;
+  font-weight: 500;
+}
+.temp {
+  align-items: center;
+  display: block;
+  text-align: center;
+}
+.main-icon {
+  max-width: 500px;
+}
+.App #search {
+  background-color: #BFE0FB;
+}
+.weatherData {
+  width: 80%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+
+small {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+small a {
+  text-decoration: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/*Responsive Styles */
+@media (min-width: 1201px) {
+  .navbar {
+    margin-right: 40px;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width: 801px) and (max-width: 1200px) {
+  body {
+    margin: 10px auto;
   }
-  to {
-    transform: rotate(360deg);
+  .App .box {
+    max-width: 75%;
+  }
+}
+@media (max-width: 800px) {
+  body {
+    margin: 50px auto;
+  }
+  .App .box {
+    max-width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+  }
+}
+@media (max-width: 600px) {
+  body {
+    margin: 10px auto;
+  }
+  .App .box {
+    max-width: 90%;
+  }
+}
+@media (max-width: 400px) {
+  body {
+    margin: 0px auto;
   }
 }
