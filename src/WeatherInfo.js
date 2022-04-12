@@ -16,27 +16,27 @@ export default function WeatherInfo(props) {
       </div>
       <div className="row px-2">
         <div className="col">
-          <h2><FormatDate date={props.data.date} /></h2>
+          <div className="date"><FormatDate date={props.data.date} /></div>
         </div>
       </div>
       <div className="row px-2">
         <div className="col">
-          <WeatherTemperature celsius={props.data.temperature} />
+         <div className="temperature"><WeatherTemperature celsius={props.data.temperature} /></div>
         </div>
       </div>
       <div className="row px-2">
         <div className="col">
-          <h4 className="text-capitalize">{props.data.description}</h4>
+          <div className="description text-capitalize">{props.data.description}</div>
         </div>
       </div>
       <div className="row px-2">
         <div className="col">
-          <h4>Wind: {Math.round(props.data.wind)} mph</h4>
+          <div className="description text-capitalize">Wind: {Math.round(props.data.wind)} MPH</div>
         </div>
       </div>
       <div className="row px-2">
         <div className="col">
-          <h4>Humidity: {props.data.humidity}%</h4>
+          <div className="description text-capitalize">Humidity: {props.data.humidity}%</div>
         </div>
       </div>
     </div>
