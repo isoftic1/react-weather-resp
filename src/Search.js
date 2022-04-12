@@ -54,7 +54,7 @@ export default function Search(props) {
     <button
       value="Search"
       id="search"
-      className="btn btn-secondary mx-1 p-1 px-3"
+      className="btn mx-1 p-1 px-3"
       type="submit"
     >
       Search
